@@ -6,6 +6,7 @@ import ClientSideRoute from './ClientSideRoute';
 type Props = {
   posts: Post[];
 };
+export const revalidate = 60;
 function BlogList({ posts }: Props) {
   return (
     <div>
