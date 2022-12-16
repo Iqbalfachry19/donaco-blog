@@ -6,6 +6,6 @@ module.exports = {
   },
 
   images: {
-    domains: ['donaco.vercel.app'],
+    domains: ['donaco.vercel.app', 'cdn.sanity.io'],
   },
 };
